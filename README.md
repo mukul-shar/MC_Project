@@ -4,9 +4,11 @@ mobile computing project UI
 ## FILES:
 
 -[RoomBooking](https://github.com/mukul-shar/MC_Project/blob/master/app/src/main/java/com/example/apointment/RoomBooking.java)
-
+    
 -[ApointmentBooking](https://github.com/mukul-shar/MC_Project/blob/master/app/src/main/java/com/example/apointment/ApointmentBooking.java)
 
+    See _addRoomIdOnSpinner_ to update list of items in spinner.
+    See _onClick_ to fetch input data.
 
 ## UPDATES:
 
