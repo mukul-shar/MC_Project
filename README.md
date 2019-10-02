@@ -1,7 +1,9 @@
 # MC_Project
 mobile computing project UI
 
-__UPDATES:__
+## FILES:
+
+## UPDATES:
 
 __build.gradle(Module:app):__
 
