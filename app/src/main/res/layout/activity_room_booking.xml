@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/apointment_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/cardview_margin"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="@dimen/cardview_default_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:id="@+id/room_booking_heading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Room Booking"
+                        android:textAlignment="gravity"
+                        android:textSize="24dp" />
+
+                    <TextView
+                        android:id="@+id/room_string"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Room" />
+
+                    <Spinner
+                        android:id="@+id/room_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:id="@+id/booking_date_string"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date" />
+
+                    <TextView
+                        android:id="@+id/booking_date_picker"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:ems="10"
+                        android:hint="Date"
+                        android:onClick="pickersOnClick"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/from_time_string"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="From:" />
+
+                    <TextView
+                        android:id="@+id/booking_from_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:hint="From Time"
+                        android:onClick="pickersOnClick"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/to_time_string"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="To:" />
+
+                    <TextView
+                        android:id="@+id/booking_to_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:hint="To Time"
+                        android:onClick="pickersOnClick"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/booking_comments"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="start|top"
+                        android:hint="Comments"
+                        android:inputType="textMultiLine" />
+
+                    <Button
+                        android:id="@+id/booking_submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="12dp"
+                        android:text="Button" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

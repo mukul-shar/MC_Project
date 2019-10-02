@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Apointment</string>
+    <dimen name="cardview_margin">36dp</dimen>
+</resources>
