@@ -7,8 +7,9 @@ mobile computing project UI
     
 -[ApointmentBooking](https://github.com/mukul-shar/MC_Project/blob/master/app/src/main/java/com/example/apointment/ApointmentBooking.java)
 
-    See _addRoomIdOnSpinner_ to update list of items in spinner.
-    See _onClick_ to fetch input data.
+   See *addRoomIdOnSpinner()* to update list of roos in spinner.
+   See *addFacultyIdOnSpinner()* to update list of faculties in spinner.
+   See *onClick()* to fetch input data.
 
 ## UPDATES:
 
