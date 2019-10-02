@@ -2,10 +2,11 @@
 mobile computing project UI
 
 ## FILES:
-RoomBooking](https://github.com/mukul-shar/MC_Project/blob/master/app/src/main/java/com/example/apointment/RoomBooking.java)
-[ApointmentBooking](https://github.com/mukul-shar/MC_Project/blob/master/app/src/main/java/com/example/apointment/ApointmentBooking.java)
-See *addRoomIdOnSpinner()* to update list of rooms in spinner.
-See *addFacultyIdOnSpinner()* to update list of faculties in spinner.
+
+[RoomBooking](https://github.com/mukul-shar/MC_Project/blob/master/app/src/main/java/com/example/apointment/RoomBooking.java)<br/>[ApointmentBooking](https://github.com/mukul-shar/MC_Project/blob/master/app/src/main/java/com/example/apointment/ApointmentBooking.java)
+
+See *addRoomIdOnSpinner()* to update list of rooms in spinner. <br/>
+See *addFacultyIdOnSpinner()* to update list of faculties in spinner. <br/>
 See *onClick()* to fetch input data.
 
 ## UPDATES:
